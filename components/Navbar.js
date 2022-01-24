@@ -21,87 +21,81 @@ export default function Navbar() {
         <div className="flex flex-col ml-12">
           <Link href="/">
             <a>
-            <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-                </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
             </a>
           </Link>
         </div>
 
         <div className="space-x-8 hidden md:block ml-2">
-        <Link href="/">
+          <Link href="/">
             <a
-              className={`text-base  ${
-                router.asPath === "/"
+              className={`text-base  ${router.asPath === "/"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+                }`}
             >
               Home
             </a>
           </Link>
           <Link href="/about">
             <a
-              className={`text-base  ${
-                router.asPath === "/about"
+              className={`text-base  ${router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+                }`}
             >
               About
             </a>
           </Link>
           <Link href="/projects">
             <a
-              className={`text-base  ${
-                router.asPath === "/projects"
+              className={`text-base  ${router.asPath === "/projects"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+                }`}
             >
               Projects
             </a>
           </Link>
           <Link href="/experience">
             <a
-              className={`text-base  ${
-                router.asPath === "/experience"
+              className={`text-base  ${router.asPath === "/experience"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+                }`}
             >
               Experience
             </a>
           </Link>
           <Link href="/blog">
             <a
-              className={`text-base  ${
-                router.asPath === "/blog"
+              className={`text-base  ${router.asPath === "/blog"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+                }`}
             >
               Blog
             </a>
           </Link>
           <Link href="/contact">
             <a
-              className={`text-base  ${
-                router.asPath === "/contact"
+              className={`text-base  ${router.asPath === "/contact"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+                }`}
             >
               Contact
             </a>
@@ -151,7 +145,7 @@ export default function Navbar() {
               className="bi bi-linkedin h-5 w-5"
               viewBox="0 0 16 16"
             >
-              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
             </svg>
           </a>
           <button

@@ -5,11 +5,11 @@ export default function AboutMe() {
   return (
     <section class="text-gray-600 body-font">
       <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          <div class="text-center lg:w-2/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{userData.about.title}</h1>
-            <p class="mb-8 leading-relaxed">{userData.about.description}</p>
-          </div>
-          <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{userData.about.title}</h1>
+          <p class="mb-8 leading-relaxed">{userData.about.description}</p>
+        </div>
+        <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
@@ -572,7 +572,7 @@ export default function AboutMe() {
                   </div>
                 </div>
                 <p className="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">
-                Bryl was the most talented software engineer I've mentored in a long time. He's a fast learner, and he always makes sure to deliver quality output given a period of time. He is also very keen on learning new technologies, and I find him to be objectively passionate about tech. He's definitely someone you want on your team.
+                  Bryl was the most talented software engineer I've mentored in a long time. He's a fast learner, and he always makes sure to deliver quality output given a period of time. He is also very keen on learning new technologies, and I find him to be objectively passionate about tech. He's definitely someone you want on your team.
                 </p>
               </div>
             </div>
@@ -593,12 +593,12 @@ export default function AboutMe() {
                   </div>
                 </div>
                 <p className="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">
-                Bryl is a good student and software developer who shows professionalism and dedication in whatever he does. His software projects during his academic years are up to standard and is being used by the university for some of its operations. Bryl also demonstrated social awareness and leadership skills through his involvement as an officer/member in various student and special interest groups in the university.
+                  Bryl is a good student and software developer who shows professionalism and dedication in whatever he does. His software projects during his academic years are up to standard and is being used by the university for some of its operations. Bryl also demonstrated social awareness and leadership skills through his involvement as an officer/member in various student and special interest groups in the university.
                 </p>
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </section>
   );
