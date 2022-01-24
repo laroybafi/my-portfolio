@@ -3,11 +3,11 @@ import userData from "@constants/data";
 
 export default function AboutMe() {
   return (
-    <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-        <div class="text-center lg:w-2/3 w-full">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{userData.about.title}</h1>
-          <p class="mb-8 leading-relaxed">{userData.about.description}</p>
+    <section className="text-gray-600 body-font">
+      <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div className="text-center lg:w-2/3 w-full">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{userData.about.title}</h1>
+          <p className="mb-8 leading-relaxed">{userData.about.description}</p>
         </div>
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           <div className="inline-flex flex-col">

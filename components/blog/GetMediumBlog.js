@@ -59,7 +59,7 @@ export class Blog extends Component {
       });
   }
   render() {
-   
+
     let post
 
     if (this.state.item) {
