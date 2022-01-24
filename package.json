@@ -1,19 +1,11 @@
 {
-  "homepage": "https://laroybafi.github.io/my-portfolio",
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "replaceFilePaths": "node replacer.js",
-    "dev": "next dev",
-    "build": "next build && next export -o build && npm run replaceFilePaths",
-    "start": "next start",
-    "export": "next export -o build && npm run replaceFilePaths",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.7.4",
